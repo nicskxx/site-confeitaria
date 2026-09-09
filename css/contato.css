@@ -1,0 +1,42 @@
+.pagina-conteudo {
+    width: min(90%, 700px);
+    min-height: 500px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.pagina-conteudo h2 {
+    color: #D7A89E;
+}
+
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #D7A89E;
+    border-radius: 6px;
+    font: inherit;
+}
+
+.formulario-contato button {
+    margin-top: 10px;
+    padding: 12px;
+    border: 0;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #B77E7A;
+    font: inherit;
+    cursor: pointer;
+}
+
+.formulario-contato button:hover {
+    background-color: #9d6864;
+}

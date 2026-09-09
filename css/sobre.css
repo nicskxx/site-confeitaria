@@ -1,0 +1,16 @@
+.pagina-conteudo {
+    width: min(90%, 900px);
+    min-height: 400px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.pagina-conteudo h2 {
+    color: #D7A89E;
+}
+
+.pagina-conteudo p {
+    max-width: 750px;
+    margin: 15px auto;
+    line-height: 1.6;
+}
