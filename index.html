@@ -1,63 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Confeitaria Sempre Doce</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/index.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <header>
         <div class="div-logo">
-            <img class="logotipo" src="IMG/logo_sempre_doce.png" alt="Logo da Confeitaria Sempre Doce">
+            <img class="logotipo" src="img/logo.png" alt="Logotipo da Confeitaria">
         </div>
+
         <div class="div-menu">
-            <h1>CONFEITARIA SEMPRE DOCE</h1>
-            <nav aria-label="Navegação principal">
-                <ul class="menu">
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="pages/cardapio.html">Cardápio</a></li>
-                    <li><a href="pages/sobre.html">Sobre</a></li>
-                    <li><a href="pages/contato.html">Contato</a></li>
+            <h1>
+                Confeitaria Sempre Doce
+            </h1>
+
+            <br/>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Início</a>
+                    </li>
+                    <li>
+                        <a href="pages/sobre.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="pages/cardapio.html">Cardápio</a>
+                    </li>
+                    <li>
+                        <a href="pages/contato.html">Contato</a>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main>
-        <img id="img" class="img-bolo" src="IMG/bolo_morango.png" alt="Bolo de morango">
+    <img id="img" class="img-bolo" src="img/bolo1.png" alt="">
 
-        <section class="sobre">
-            <h2>SOBRE NÓS</h2>
-            <p>A Confeitaria Sempre Doce é especializada em criar experiências doces e memoráveis. Oferecemos bolos, doces e sobremesas preparados com ingredientes de alta qualidade e muito amor.</p>
-        </section>
+    <section class="sobre">
+        <h2>Sobre Nós</h2>
+        <p>
+            Somos uma confeitaria dedicada a
+            criar bolos deliciosos e personalizados
+            para todas as ocasiões.<br/>
+            Nossa paixão pela confeitaria é refletida
+            em cada criação que sai da nossa
+            cozinha.
+        </p>
+    </section>
 
-        <section class="sobre">
-            <h2>NOSSO CARDÁPIO</h2>
-            <div class="menu-cardapio-itens">
-                <article class="menu-cardapio-item">
-                    <h3>BOLO DE CHOCOLATE</h3>
-                    <p>Uma gostosura com recheio e um clássico da culinária brasileira.</p>
-                </article>
-                <article class="menu-cardapio-item">
-                    <h3>BOLO DE MORANGO</h3>
-                    <p>Um bolo delicioso que não pode faltar na sua comemoração.</p>
-                </article>
-                <article class="menu-cardapio-item">
-                    <h3>BOLO DE CENOURA</h3>
-                    <p>Bolo de cenoura com cobertura de chocolate, simplesmente irresistível.</p>
-                </article>
+    <section class="sobre">
+        <h2>Nosso Cardápio</h2>
+        
+        <div class="menu-cardapio-itens">
+
+            <div class="menu-cardapio-item">
+                <h3>Bolo de Chocolate</h3>
+                <p>
+                    Um clássico irresistível
+                    com camadas de chocolate.
+                </p>
             </div>
-        </section>
-    </main>
 
-    <footer>&copy; 2026 Confeitaria Sempre Doce. Todos os direitos reservados.</footer>
-    <script src="JS/index.js"></script>
+            <div class="menu-cardapio-item">
+                <h3>Bolo de Morango</h3>
+                <p>
+                    Fresco e frutado, perfeito
+                    para qualquer ocasião.
+                </p>
+            </div>
+
+            <div class="menu-cardapio-item">
+                <h3>Bolo de Cenoura</h3>
+                <p>
+                    Uma delícia tradicional com
+                    cobertura de chocolate.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2026 Confeitaria Sempre Doce. 
+        Todos os direitos reservados.
+    </footer>
+
 </body>
-
+<script src="js/index.js"></script>
 </html>

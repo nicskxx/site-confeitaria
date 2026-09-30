@@ -1,73 +1,34 @@
-.menu-cardapio-itens {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    align-items: stretch;
+.img-cardapio {
+    width: 40%;
+    border-radius: 10px;
 }
 
-.menu-cardapio-item {
+.div-card {
     display: flex;
-    flex-direction: column;
-    min-height: 100%;
+    gap: 10%;
+    padding-bottom: 10px;
+}
+
+.div-card p {
+    font-size: 15px;
+    text-align: center;
+    width: 40%;
 }
 
 .menu-cardapio-item h3 {
-    margin-bottom: 15px;
-    text-align: center;
+    margin-bottom: 20px;
 }
 
-.div-mae {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    gap: 15px;
+.reservar {
+    text-align: right;        
 }
 
-
-.menu-cardapio-item .img-cardapio,
-.menu-cardapio-item .img-bologm {
-    flex: 0 0 40%;
-    width: 40%;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 15px;
-    display: block;
-}
-
-.div-mae p {
+.reservar a {
     font-size: 15px;
+    color: blue;
+    margin-right: 10px;
 }
 
-.reserva {
-    margin-top: 15px;
-    text-align: right;
-}
-
-.reserva a {
-    color: #B77E7A;
-    font-size: 20px;
-}
-
-@media (max-width: 900px) {
-    .menu-cardapio-itens {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
-@media (max-width: 600px) {
-    .menu-cardapio-itens {
-        grid-template-columns: 1fr;
-    }
-
-    .div-mae {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .menu-cardapio-item .img-cardapio,
-    .menu-cardapio-item .img-bologm {
-        width: 100%;
-        flex-basis: auto;
-    }
-}
 .hide {
     display: none;
 }
@@ -76,18 +37,43 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
     z-index: 1;
 }
 
-.modal{
+.modal {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    width:300px
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 35px;
     z-index: 2;
+}
+.fechar {
+    text-align: right;
+}
+
+.button-reserva {
+    background-color: #f2f2f2;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+
+
+.button-reserva :hover {
+    background-color: #e6e6e6;
+    text-decoration: underline;
+}
+
+.centralizado {
+    text-align: center;
 }

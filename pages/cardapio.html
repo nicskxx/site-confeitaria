@@ -4,110 +4,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardápio | Confeitaria Sempre Doce</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <title>Cardápio</title>
+
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/cardapio.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="div-logo">
-            <img class="logotipo" src="../IMG/logo_sempre_doce.png" alt="Logo da Confeitaria Sempre Doce">
+            <img class="logotipo" src="../img/logo.png" alt="Logotipo da Confeitaria">
         </div>
+
         <div class="div-menu">
-            <h1>CONFEITARIA SEMPRE DOCE</h1>
-            <nav aria-label="Navegação principal">
-                <ul class="menu">
-                    <li><a href="../index.html">Início</a></li>
-                    <li><a href="cardapio.html">Cardápio</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+            <h1>
+                Confeitaria Sempre Doce
+            </h1>
+
+            <br />
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html">Início</a>
+                    </li>
+                    <li>
+                        <a href="../pages/sobre.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="../pages/cardapio.html">Cardápio</a>
+                    </li>
+                    <li>
+                        <a href="../pages/contato.html">Contato</a>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    
-        <section class="sobre">
-            <h2>NOSSO CARDÁPIO</h2>
-            <div class="menu-cardapio-itens">
-                <article class="menu-cardapio-item">
-                    <h3>BOLO DE MORANGO</h3>
-                    <div class="div-mae">
-                        <img class="img-cardapio" src="../IMG/bolo_morango.png" alt="Bolo de morango">
-                        <p>Uma gostosura de recheio com um clássico da culinária brasileira.</p>
-                    </div>
-                    <div class="reserva"><a href="" onclick="abrir()">Reservar</a></div>
-                </article>
+    <section class="sobre">
+        <h2>Nosso Cardápio</h2>
 
-                <article class="menu-cardapio-item">
-                    <h3>BOLO DE CHOCOLATE</h3>
-                    <div class="div-mae">
-                        <img class="img-cardapio" src="../IMG/bolo_chocolate.png" alt="Bolo de chocolate">
-                        <p>O melhor de todos, que não pode faltar.</p>
-                    </div>
-                    <div class="reserva"><a href="" onclick="abrir()">Reservar</a></div>
-                </article>
+        <div class="menu-cardapio-itens">
 
-                <article class="menu-cardapio-item">
-                    <h3>BOLO DE MARACUJÁ</h3>
-                    <div class="div-mae">
-                        <img class="img-bologm" src="../IMG/bolo_abacaxi.jpg" alt="Bolo de maracujá">
-                        <p>Um bolo refrescante e simplesmente irresistível.</p>
-                    </div>
-                    <div class="reserva"><a href="" onclick="abrir()">Reservar</a></div>
-                </article>
+            <div class="menu-cardapio-item">
+                <h3>Bolo de Chocolate</h3>
 
-                <article class="menu-cardapio-item">
-                    <h3>BOLO DE FRUTAS VERMELHAS</h3>
-                    <div class="div-mae">
-                        <img class="img-bologm" src="../IMG/bolo_frutas_vermelhas.jpg" alt="Bolo de frutas vermelhas">
-                        <p>Um bolo feito para adoçar sua vida com frutas vermelhas.</p>
-                    </div>
-                    <div class="reserva"><a href="" onclick="abrir()">Reservar</a></div>
-                </article>
+                <div class="div-card">
+                    <img class="img-cardapio" src="../img/bolo1.png" alt="Bolo de Chocolate">
+                    
+                    <p class="descricao">
+                        Um clássico irresistível
+                        com camadas de chocolate.
+                    </p>
+                </div>
 
-                <article class="menu-cardapio-item">
-                    <h3>BOLO DE ABACAXI</h3>
-                    <div class="div-mae">
-                        <img class="img-bologm" src="../IMG/bolo_maracuja.jpg" alt="Bolo de abacaxi">
-                        <p>Um bolo delicioso com o sabor tropical do abacaxi.</p>
-                    </div>
-                    <div class="reserva"><a href="">Reservar</a></div>
-                </article>
+                <div class="reservar">
+                    <button class="button-reserva" onclick="abrir()">
+                        Reservar
+                    </button>
+                </div>
 
-                <article class="menu-cardapio-item">
-                    <h3>BOLO RED VELVET</h3>
-                    <div class="div-mae">
-                        <img class="img-bologm" src="../IMG/bolo_red_velvet.png" alt="Bolo red velvet">
-                        <p>Um bolo especial para deixar sua comemoração inesquecível.</p>
-                    </div>
-                    <div class="reserva">
-                        <a href="" onclick="abrir()">Reservar</a>
-                    </div>
-                </article>
             </div>
-        </section>
 
-   
+            <div class="menu-cardapio-item">
+                <h3>Bolo de Morango</h3>
 
+                <div class="div-card">
+                    <img class="img-cardapio" src="../img/bolo2.png" alt="Bolo de Morango">
+                    
+                    <p class="descricao">
+                        Fresco e frutado, perfeito
+                        para qualquer ocasião.
+                    </p>
+                </div>
 
+                <div class="reservar">
+                    <button class="button-reserva" onclick="abrir()">
+                        Reservar
+                    </button>
+                </div>
+            </div>
 
-    <div id="fade" class = "hide"></div>
-    <div id="modal" class = "hide">
+            <div class="menu-cardapio-item">
+                <h3>Bolo de ABACAXI</h3>
+
+                <div class="div-card">
+                    <img class="img-cardapio" src="../img/bolo3.png" alt="Bolo de Morango">
+                    
+                    <p class="descricao">
+                        Uma delícia tropical com sabor refrescante
+                        e cobertura de chantilly.
+                    </p>
+                </div>
+
+                <div class="reservar">
+                    <button class="button-reserva" onclick="abrir()">
+                        Reservar
+                    </button>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="fade" class="hide"></div>
+
+    <div id="modal" class="hide">
+    <div class="centralizado">
         <div>
-            <h2>REALIZAR RESERVA</h2>
-            <img src = "" alt="Reserva">
+            <h2>Realizar Reserva</h2>
+            <img src="../IMG/pix qr.png" alt="QR Code para pagamento via Pix">
+        </div>
+    </div>
+        
+        <div class="fechar">
+            <a href="" onclick="fechar()">Fechar</a>
         </div>
 
-        <div>
-            <a href="">Fechar</a>
-        </div>
-           
+    </div>
+
 </body>
 <script src="../js/cardapio.js"></script>
-
 </html>

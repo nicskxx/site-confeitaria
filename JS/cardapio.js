@@ -1,5 +1,8 @@
-const fade = document.getElementById("fade");
-const modal = document.getElementById("modal");
+const fade = document
+    .getElementById("fade")
+
+const modal = document
+    .getElementById("modal")
 
 function abrir() {
     fade.classList.remove("hide")
@@ -10,10 +13,10 @@ function abrir() {
 }
 
 function fechar() {
-    fade.classList.remove("fade")
     fade.classList.add("hide")
+    fade.classList.remove("fade")
 
-    modal.classList.remove("modal")
     modal.classList.add("hide")
+    modal.classList.remove("modal")
 }
 
